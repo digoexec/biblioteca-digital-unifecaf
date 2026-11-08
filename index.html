@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Biblioteca Digital UniFECAF: livros, materiais acadêmicos e informações sobre as unidades.">
+    <title>Biblioteca Digital UniFECAF</title>
+
+    <!-- Fonte Poppins (a mesma usada nos materiais da UniFECAF) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Link para quem navega pelo teclado pular o menu -->
+    <a class="pular-menu" href="#conteudo">Pular para o conteúdo</a>
+
+    <!-- ========== MENU ========== -->
+    <header class="topo">
+        <nav class="menu" aria-label="Menu principal">
+            <a class="logo" href="#biblioteca">Biblioteca <span>UniFECAF</span></a>
+            <ul class="menu-links">
+                <li><a href="#biblioteca">Biblioteca</a></li>
+                <li><a href="#livros">Livros</a></li>
+                <li><a href="#unidades">Unidades</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+
+        <!-- ========== BANNER PRINCIPAL ========== -->
+        <section class="hero" id="biblioteca">
+            <img src="assets/imagens/hero.jpg" alt="Estantes cheias de livros coloridos">
+            <div class="hero-texto">
+                <h1>Biblioteca Digital UniFECAF</h1>
+                <p>Livros e materiais de estudo reunidos em um só lugar, para você aprender de onde estiver.</p>
+            </div>
+        </section>
+
+        <!-- ========== SOBRE A NOSSA BIBLIOTECA ========== -->
+        <section class="sobre">
+            <div class="container">
+                <h2>Sobre a nossa biblioteca</h2>
+
+                <div class="sobre-conteudo">
+                    <p>
+                        A Biblioteca Digital da UniFECAF foi criada para facilitar o acesso dos estudantes
+                        a livros, artigos e materiais de apoio. Aqui você encontra o acervo organizado por
+                        categorias, sem precisar ir até a unidade para começar a estudar.
+                    </p>
+                    <img src="assets/imagens/sobre.jpg" alt="Livro aberto sobre uma mesa">
+                    <p>
+                        O objetivo é que a pesquisa seja simples: você escolhe o assunto, vê os destaques
+                        do momento e descobre os serviços que a biblioteca oferece, como empréstimo,
+                        consulta online e espaços de estudo.
+                    </p>
+                </div>
+
+                <ul class="miniaturas">
+                    <li>
+                        <img src="assets/imagens/mini-acervo.jpg" alt="Estantes do acervo físico">
+                        <span>Acervo</span>
+                    </li>
+                    <li>
+                        <img src="assets/imagens/mini-leitura.jpg" alt="Livro aberto para leitura">
+                        <span>Leitura</span>
+                    </li>
+                    <li>
+                        <img src="assets/imagens/mini-online.jpg" alt="Notebook com o catálogo online">
+                        <span>Consulta online</span>
+                    </li>
+                    <li>
+                        <img src="assets/imagens/mini-estudo.jpg" alt="Pilha de livros ao lado de um abajur">
+                        <span>Espaço de estudo</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ========== BANNER SECUNDÁRIO ========== -->
+        <section class="banner">
+            <img src="assets/imagens/banner.jpg" alt="Estantes com livros em tons de verde e azul">
+        </section>
+
+        <!-- ========== NOSSOS LIVROS ========== -->
+        <section class="livros" id="livros">
+            <div class="container">
+                <h2>Nossos livros</h2>
+
+                <div class="livros-grade">
+
+                    <article class="card">
+                        <h3>Introdução à Programação</h3>
+                        <img src="assets/imagens/livro1.jpg" alt="Capa do livro Introdução à Programação">
+                        <p>Primeiros passos em lógica e algoritmos, com exemplos simples para quem está começando.</p>
+                        <a class="botao" href="#livros">Saiba mais</a>
+                    </article>
+
+                    <article class="card">
+                        <h3>Banco de Dados</h3>
+                        <img src="assets/imagens/livro2.jpg" alt="Capa do livro Banco de Dados">
+                        <p>Modelagem, tabelas e consultas SQL explicadas passo a passo.</p>
+                        <a class="botao" href="#livros">Saiba mais</a>
+                    </article>
+
+                    <article class="card">
+                        <h3>Redes de Computadores</h3>
+                        <img src="assets/imagens/livro3.jpg" alt="Capa do livro Redes de Computadores">
+                        <p>Como os computadores se comunicam: protocolos, endereços e camadas de rede.</p>
+                        <a class="botao" href="#livros">Saiba mais</a>
+                    </article>
+
+                    <article class="card">
+                        <h3>Engenharia de Software</h3>
+                        <img src="assets/imagens/livro4.jpg" alt="Capa do livro Engenharia de Software">
+                        <p>Como planejar, desenvolver e testar um sistema, do requisito à entrega.</p>
+                        <a class="botao" href="#livros">Saiba mais</a>
+                    </article>
+
+                    <article class="card">
+                        <h3>Estruturas de Dados</h3>
+                        <img src="assets/imagens/livro5.jpg" alt="Capa do livro Estruturas de Dados">
+                        <p>Listas, pilhas, filas e árvores para organizar informações de forma eficiente.</p>
+                        <a class="botao" href="#livros">Saiba mais</a>
+                    </article>
+
+                    <article class="card">
+                        <h3>Design Web</h3>
+                        <img src="assets/imagens/livro6.jpg" alt="Capa do livro Design Web">
+                        <p>HTML, CSS e boas práticas para criar páginas bonitas, responsivas e acessíveis.</p>
+                        <a class="botao" href="#livros">Saiba mais</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== AS UNIDADES ========== -->
+        <section class="unidades" id="unidades">
+            <div class="container">
+                <h2>As unidades</h2>
+
+                <article class="unidade">
+                    <img src="assets/imagens/unidade1.jpg" alt="Fachada do prédio da Unidade 1">
+                    <div>
+                        <h3>Unidade 1</h3>
+                        <p>
+                            Unidade principal, com o maior acervo físico e atendimento da equipe
+                            de bibliotecários. Funciona de segunda a sexta, das 8h às 22h.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="unidade">
+                    <img src="assets/imagens/unidade2.jpg" alt="Sala de leitura da Unidade 2 com estantes e mesa de estudo">
+                    <div>
+                        <h3>Unidade 2</h3>
+                        <p>
+                            Sala de leitura silenciosa com mesas para estudo individual e em grupo.
+                            Ideal para quem precisa de concentração antes das provas.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="unidade">
+                    <img src="assets/imagens/unidade3.jpg" alt="Laboratório de informática da Unidade 3 com três computadores">
+                    <div>
+                        <h3>Unidade 3</h3>
+                        <p>
+                            Laboratório de informática com computadores para consultar o catálogo
+                            digital, fazer pesquisas e acessar as bases de artigos.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ========== CONTATOS ========== -->
+        <section class="contatos" id="contatos">
+            <div class="container contatos-conteudo">
+                <div class="contatos-textos">
+                    <h2>Contatos</h2>
+                    <p>
+                        Dúvidas sobre o acervo, empréstimos ou acesso à plataforma? Fale com a nossa
+                        equipe. Respondemos os e-mails em até dois dias úteis.
+                    </p>
+                    <p>
+                        <strong>E-mail:</strong> biblioteca@exemplo.edu.br<br>
+                        <strong>Telefone:</strong> (11) 0000-0000<br>
+                        <strong>Atendimento:</strong> segunda a sexta, das 8h às 22h
+                    </p>
+                </div>
+                <img src="assets/imagens/contato.jpg" alt="Mapa com um marcador indicando a localização da biblioteca">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Biblioteca Digital UniFECAF &middot; Projeto acadêmico da disciplina Design Web</p>
+    </footer>
+
+</body>
+</html>
